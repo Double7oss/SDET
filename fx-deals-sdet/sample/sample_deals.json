@@ -1,0 +1,30 @@
+[
+  {
+    "dealId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "fromCurrency": "USD",
+    "toCurrency": "EUR",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "amount": 10.0
+  },
+  {
+    "dealId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "fromCurrency": "GBP",
+    "toCurrency": "USD",
+    "timestamp": "2025-01-02T12:34:56Z",
+    "amount": 5.5
+  },
+  {
+    "dealId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "fromCurrency": "USD",
+    "toCurrency": "EUR",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "amount": 10.0
+  },
+  {
+    "dealId": "not-uuid",
+    "fromCurrency": "USD",
+    "toCurrency": "EUR",
+    "timestamp": "bad",
+    "amount": -1
+  }
+]

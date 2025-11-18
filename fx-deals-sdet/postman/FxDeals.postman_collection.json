@@ -1,0 +1,40 @@
+{
+  "info": {
+    "name": "FX Deals",
+    "_postman_id": "b6e3099c-3d2c-49d7-9a7f-1f9eae0e1abc",
+    "description": "Postman collection for /api/deals/import",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Import Deals",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/api/deals/import",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "deals",
+            "import"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "[\n  {\n    \"dealId\": \"11111111-1111-1111-1111-111111111111\",\n    \"fromCurrency\": \"USD\",\n    \"toCurrency\": \"EUR\",\n    \"timestamp\": \"2025-01-01T00:00:00Z\",\n    \"amount\": 1.23\n  },\n  {\n    \"dealId\": \"11111111-1111-1111-1111-111111111111\",\n    \"fromCurrency\": \"USD\",\n    \"toCurrency\": \"EUR\",\n    \"timestamp\": \"2025-01-01T00:00:00Z\",\n    \"amount\": 1.23\n  },\n  {\n    \"dealId\": \"not-uuid\",\n    \"fromCurrency\": \"USD\",\n    \"toCurrency\": \"EUR\",\n    \"timestamp\": \"2025-01-01T00:00:00Z\",\n    \"amount\": 1.23\n  }\n]"
+        }
+      },
+      "response": []
+    }
+  ]
+}
