@@ -1,0 +1,10 @@
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/FxDealsApplication.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/core/DealImportService.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/core/DealParser.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/core/DealRequest.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/core/ErrorRow.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/core/ImportResponse.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/core/RowStatus.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/domain/Deal.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/repository/DealRepository.java
+/home/runner/work/SDET/SDET/fx-deals-sdet/src/main/java/com/example/fxdeals/web/DealsController.java
